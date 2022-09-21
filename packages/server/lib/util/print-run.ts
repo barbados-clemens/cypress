@@ -508,11 +508,15 @@ export function displayVideoProcessingProgress (opts: { videoName: string, video
         table.push([
           gray('-'),
           gray('Finished processing:'),
-            `${formatPath(opts.videoName, getWidth(table, 2), 'cyan')}`,
-            gray(dur),
+          '100%',
+          gray(dur),
         ])
 
         console.log(table.toString())
+
+        console.log('')
+
+        console.log(`${formatPath(opts.videoName, undefined, 'cyan')}`)
 
         console.log('')
       }
