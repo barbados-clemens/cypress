@@ -516,7 +516,7 @@ export function displayVideoProcessingProgress (opts: { videoName: string, video
 
         console.log('')
 
-        console.log(`${formatPath(opts.videoName, undefined, 'cyan')}`)
+        console.log(`Video output: ${formatPath(opts.videoName, undefined, 'cyan')}`)
 
         console.log('')
       }
