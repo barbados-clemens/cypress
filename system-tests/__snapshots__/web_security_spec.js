@@ -136,7 +136,9 @@ https://on.cypress.io/cross-origin-violation
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/web_security.cy.js.mp4              (X second)
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/web_security.cy.js.mp4
 
 
 ====================================================================================================
@@ -202,7 +204,9 @@ exports['e2e web security / when disabled / passes'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/web_security.cy.js.mp4              (X second)
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/web_security.cy.js.mp4
 
 
 ====================================================================================================
@@ -384,7 +388,9 @@ exports['e2e web security / when experimentalSessionAndOrigin is enabled / fails
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/web_security.cy.js.mp4              (X second)
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/web_security.cy.js.mp4
 
 
 ====================================================================================================

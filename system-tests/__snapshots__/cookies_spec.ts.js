@@ -85,7 +85,9 @@ exports['e2e cookies with baseurl'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/cookies_spec_baseurl.cy.js.mp4      (X second)
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/cookies_spec_baseurl.cy.js.mp4
 
 
 ====================================================================================================
@@ -156,8 +158,9 @@ exports['e2e cookies with no baseurl'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/cookies_spec_no_baseurl.cy.js.m     (X second)
-                          p4                                                                        
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/cookies_spec_no_baseurl.cy.js.mp4
 
 
 ====================================================================================================

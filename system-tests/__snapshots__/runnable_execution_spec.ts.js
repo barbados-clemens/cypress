@@ -116,8 +116,9 @@ Because this error occurred during a \`before each\` hook we are skipping the re
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/beforehook-and-test-navigation.     (X second)
-                          cy.js.mp4                                                                 
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/beforehook-and-test-navigation.cy.js.mp4
 
 
 ====================================================================================================
@@ -189,7 +190,9 @@ exports['e2e runnable execution / runnables run correct number of times with nav
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/runnable-run-count.cy.js.mp4        (X second)
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/runnable-run-count.cy.js.mp4
 
 
 ====================================================================================================

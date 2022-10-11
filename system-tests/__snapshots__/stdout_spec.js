@@ -540,8 +540,9 @@ exports['e2e stdout / displays assertion errors'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/stdout_assertion_errors.cy.js.m     (X second)
-                          p4                                                                        
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/stdout_assertion_errors.cy.js.mp4
 
 
 ====================================================================================================

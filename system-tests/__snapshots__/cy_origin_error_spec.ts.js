@@ -57,7 +57,9 @@ exports['e2e cy.origin errors / captures the stack trace correctly for errors in
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/cy_origin_error.cy.ts.mp4           (X second)
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/cy_origin_error.cy.ts.mp4
 
 
 ====================================================================================================
