@@ -52,7 +52,9 @@ https://on.cypress.io/config
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/issue_6407_spec.js.mp4              (X second)
+  -  Finished processing: 100%                                                            (X second)
+
+Video output: /XXX/XXX/XXX/cypress/videos/issue_6407_spec.js.mp4
 
 
 ====================================================================================================
