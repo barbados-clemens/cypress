@@ -490,7 +490,7 @@ export function displayVideoProcessingProgress (opts: { videoName: string, video
     onProgress (float: number) {
       if (float === 1) {
         const finished = Date.now() - started
-        const dur = `(${humanTime.long(finished)})`
+        const dur = `${humanTime.long(finished)}`
 
         const table = terminal.table({
           colWidths: [3, 21, 61, 15],
@@ -508,7 +508,6 @@ export function displayVideoProcessingProgress (opts: { videoName: string, video
         table.push([
           gray('-'),
           gray('Finished processing:'),
-          '100%',
           gray(dur),
         ])
 
@@ -516,7 +515,7 @@ export function displayVideoProcessingProgress (opts: { videoName: string, video
 
         console.log('')
 
-        console.log(`Video output: ${formatPath(opts.videoName, undefined, 'cyan')}`)
+        console.log(`  -  Video output: ${formatPath(opts.videoName, undefined, 'cyan')}`)
 
         console.log('')
       }
