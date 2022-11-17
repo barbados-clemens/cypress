@@ -7,15 +7,15 @@ exports['@cypress/vite-dev-server react executes all of the tests for vite3.0.2-
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ Cypress:    1.2.3                                                                              │
   │ Browser:    FooBrowser 88                                                                      │
-  │ Specs:      7 found (App.cy.jsx, AppCompilationError.cy.jsx, Errors.cy.jsx, MissingReact.cy.js │
-  │             x, MissingReactInSpec.cy.jsx, Rerendering.cy.jsx, Unmount.cy.jsx)                  │
+  │ Specs:      8 found (App.cy.jsx, AppCompilationError.cy.jsx, Errors.cy.jsx, MissingReact.cy.js │
+  │             x, MissingReactInSpec.cy.jsx, Rerendering.cy.jsx, Unmount.cy.jsx, mount.cy.jsx)    │
   │ Searched:   **/*.cy.{js,jsx,ts,tsx}                                                            │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  App.cy.jsx                                                                      (1 of 7)
+  Running:  App.cy.jsx                                                                      (1 of 8)
 
 
   ✓ renders hello world
@@ -49,7 +49,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  AppCompilationError.cy.jsx                                                      (2 of 7)
+  Running:  AppCompilationError.cy.jsx                                                      (2 of 8)
 
 
   1) An uncaught error was detected outside of a test
@@ -103,7 +103,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Errors.cy.jsx                                                                   (3 of 7)
+  Running:  Errors.cy.jsx                                                                   (3 of 8)
 
 
   Errors
@@ -199,7 +199,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  MissingReact.cy.jsx                                                             (4 of 7)
+  Running:  MissingReact.cy.jsx                                                             (4 of 8)
 
 
   1) is missing React
@@ -253,7 +253,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  MissingReactInSpec.cy.jsx                                                       (5 of 7)
+  Running:  MissingReactInSpec.cy.jsx                                                       (5 of 8)
 
 
   1) is missing React in this file
@@ -299,7 +299,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Rerendering.cy.jsx                                                              (6 of 7)
+  Running:  Rerendering.cy.jsx                                                              (6 of 8)
 
 
   re-render
@@ -334,7 +334,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Unmount.cy.jsx                                                                  (7 of 7)
+  Running:  Unmount.cy.jsx                                                                  (7 of 8)
 
 
   Comp with componentWillUnmount
@@ -371,6 +371,42 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
 
 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  mount.cy.jsx                                                                    (8 of 8)
+
+
+  mount
+    ✓ does not error when rendering primitives
+    teardown
+      ✓ should mount
+      ✓ should remove previous mounted component
+
+
+  3 passing
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     X seconds                                                                        │
+  │ Spec Ran:     mount.cy.jsx                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4                    (X second)
+
+
 ====================================================================================================
 
   (Run Finished)
@@ -391,8 +427,10 @@ Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
   │ ✔  Rerendering.cy.jsx                       XX:XX        1        1        -        -        - │
   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
   │ ✔  Unmount.cy.jsx                           XX:XX        3        3        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  mount.cy.jsx                             XX:XX        3        3        -        -        - │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
-    ✖  4 of 7 failed (57%)                      XX:XX       13        6        7        -        -  
+    ✖  4 of 8 failed (50%)                      XX:XX       16        9        7        -        -  
 
 
 `
@@ -406,15 +444,15 @@ exports['@cypress/vite-dev-server react executes all of the tests for vite2.8.6-
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ Cypress:    1.2.3                                                                              │
   │ Browser:    FooBrowser 88                                                                      │
-  │ Specs:      7 found (App.cy.jsx, AppCompilationError.cy.jsx, Errors.cy.jsx, MissingReact.cy.js │
-  │             x, MissingReactInSpec.cy.jsx, Rerendering.cy.jsx, Unmount.cy.jsx)                  │
+  │ Specs:      8 found (App.cy.jsx, AppCompilationError.cy.jsx, Errors.cy.jsx, MissingReact.cy.js │
+  │             x, MissingReactInSpec.cy.jsx, Rerendering.cy.jsx, Unmount.cy.jsx, mount.cy.jsx)    │
   │ Searched:   **/*.cy.{js,jsx,ts,tsx}                                                            │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  App.cy.jsx                                                                      (1 of 7)
+  Running:  App.cy.jsx                                                                      (1 of 8)
 
 
   ✓ renders hello world
@@ -448,7 +486,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  AppCompilationError.cy.jsx                                                      (2 of 7)
+  Running:  AppCompilationError.cy.jsx                                                      (2 of 8)
 
 
   1) An uncaught error was detected outside of a test
@@ -502,7 +540,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Errors.cy.jsx                                                                   (3 of 7)
+  Running:  Errors.cy.jsx                                                                   (3 of 8)
 
 
   Errors
@@ -598,7 +636,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  MissingReact.cy.jsx                                                             (4 of 7)
+  Running:  MissingReact.cy.jsx                                                             (4 of 8)
 
 
   1) is missing React
@@ -652,7 +690,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  MissingReactInSpec.cy.jsx                                                       (5 of 7)
+  Running:  MissingReactInSpec.cy.jsx                                                       (5 of 8)
 
 
   1) is missing React in this file
@@ -698,7 +736,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Rerendering.cy.jsx                                                              (6 of 7)
+  Running:  Rerendering.cy.jsx                                                              (6 of 8)
 
 
   re-render
@@ -733,7 +771,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Unmount.cy.jsx                                                                  (7 of 7)
+  Running:  Unmount.cy.jsx                                                                  (7 of 8)
 
 
   Comp with componentWillUnmount
@@ -770,6 +808,42 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
 
 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  mount.cy.jsx                                                                    (8 of 8)
+
+
+  mount
+    ✓ does not error when rendering primitives
+    teardown
+      ✓ should mount
+      ✓ should remove previous mounted component
+
+
+  3 passing
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     X seconds                                                                        │
+  │ Spec Ran:     mount.cy.jsx                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4                    (X second)
+
+
 ====================================================================================================
 
   (Run Finished)
@@ -790,8 +864,10 @@ Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
   │ ✔  Rerendering.cy.jsx                       XX:XX        1        1        -        -        - │
   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
   │ ✔  Unmount.cy.jsx                           XX:XX        3        3        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  mount.cy.jsx                             XX:XX        3        3        -        -        - │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
-    ✖  4 of 7 failed (57%)                      XX:XX       13        6        7        -        -  
+    ✖  4 of 8 failed (50%)                      XX:XX       16        9        7        -        -  
 
 
 `
@@ -805,15 +881,15 @@ exports['@cypress/vite-dev-server react executes all of the tests for vite2.9.1-
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ Cypress:    1.2.3                                                                              │
   │ Browser:    FooBrowser 88                                                                      │
-  │ Specs:      7 found (App.cy.jsx, AppCompilationError.cy.jsx, Errors.cy.jsx, MissingReact.cy.js │
-  │             x, MissingReactInSpec.cy.jsx, Rerendering.cy.jsx, Unmount.cy.jsx)                  │
+  │ Specs:      8 found (App.cy.jsx, AppCompilationError.cy.jsx, Errors.cy.jsx, MissingReact.cy.js │
+  │             x, MissingReactInSpec.cy.jsx, Rerendering.cy.jsx, Unmount.cy.jsx, mount.cy.jsx)    │
   │ Searched:   **/*.cy.{js,jsx,ts,tsx}                                                            │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  App.cy.jsx                                                                      (1 of 7)
+  Running:  App.cy.jsx                                                                      (1 of 8)
 
 
   ✓ renders hello world
@@ -847,7 +923,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  AppCompilationError.cy.jsx                                                      (2 of 7)
+  Running:  AppCompilationError.cy.jsx                                                      (2 of 8)
 
 
   1) An uncaught error was detected outside of a test
@@ -901,7 +977,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Errors.cy.jsx                                                                   (3 of 7)
+  Running:  Errors.cy.jsx                                                                   (3 of 8)
 
 
   Errors
@@ -997,7 +1073,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  MissingReact.cy.jsx                                                             (4 of 7)
+  Running:  MissingReact.cy.jsx                                                             (4 of 8)
 
 
   1) is missing React
@@ -1051,7 +1127,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  MissingReactInSpec.cy.jsx                                                       (5 of 7)
+  Running:  MissingReactInSpec.cy.jsx                                                       (5 of 8)
 
 
   1) is missing React in this file
@@ -1097,7 +1173,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Rerendering.cy.jsx                                                              (6 of 7)
+  Running:  Rerendering.cy.jsx                                                              (6 of 8)
 
 
   re-render
@@ -1132,7 +1208,7 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
                                                                                                     
-  Running:  Unmount.cy.jsx                                                                  (7 of 7)
+  Running:  Unmount.cy.jsx                                                                  (7 of 8)
 
 
   Comp with componentWillUnmount
@@ -1169,6 +1245,42 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
 
 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  mount.cy.jsx                                                                    (8 of 8)
+
+
+  mount
+    ✓ does not error when rendering primitives
+    teardown
+      ✓ should mount
+      ✓ should remove previous mounted component
+
+
+  3 passing
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     X seconds                                                                        │
+  │ Spec Ran:     mount.cy.jsx                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4                    (X second)
+
+
 ====================================================================================================
 
   (Run Finished)
@@ -1189,8 +1301,10 @@ Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
   │ ✔  Rerendering.cy.jsx                       XX:XX        1        1        -        -        - │
   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
   │ ✔  Unmount.cy.jsx                           XX:XX        3        3        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  mount.cy.jsx                             XX:XX        3        3        -        -        - │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
-    ✖  4 of 7 failed (57%)                      XX:XX       13        6        7        -        -  
+    ✖  4 of 8 failed (50%)                      XX:XX       16        9        7        -        -  
 
 
 `

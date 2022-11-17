@@ -46,6 +46,7 @@ const rp = request.defaults((params, callback) => {
     proxy: null,
     gzip: true,
     cacheable: false,
+    rejectUnauthorized: true,
   })
 
   const headers = params.headers != null ? params.headers : (params.headers = {})
@@ -106,7 +107,7 @@ const retryWithBackoff = (fn) => {
       const delay = DELAYS[retryIndex]
 
       errors.warning(
-        'DASHBOARD_API_RESPONSE_FAILED_RETRYING', {
+        'CLOUD_API_RESPONSE_FAILED_RETRYING', {
           delay,
           tries: DELAYS.length - retryIndex,
           response: err,
