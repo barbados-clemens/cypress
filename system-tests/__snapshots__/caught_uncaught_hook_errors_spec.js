@@ -91,9 +91,9 @@ Because this error occurred during a \`before all\` hook we are skipping the rem
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/hook_caught_error_failing.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/hook_caught_error_failing.cy.js.mp4
 
 
 ====================================================================================================
@@ -184,9 +184,9 @@ Because this error occurred during a \`before each\` hook we are skipping the re
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/hook_uncaught_error_failing.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/hook_uncaught_error_failing.cy.js.mp4
 
 
 ====================================================================================================
@@ -268,9 +268,9 @@ Because this error occurred during a \`before each\` hook we are skipping all of
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/hook_uncaught_root_error_failing.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/hook_uncaught_root_error_failing.cy.js.mp4
 
 
 ====================================================================================================
@@ -362,9 +362,9 @@ Because this error occurred during a \`before each\` hook we are skipping the re
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/hook_uncaught_error_events_failing.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/hook_uncaught_error_events_failing.cy.js.mp4
 
 
 ====================================================================================================

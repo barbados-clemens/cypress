@@ -48,9 +48,9 @@ exports['e2e iframes / passes'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/iframe.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/iframe.cy.js.mp4
 
 
 ====================================================================================================

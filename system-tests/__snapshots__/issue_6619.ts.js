@@ -49,9 +49,9 @@ exports['e2e issue 6619 / can reload during spec run'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/reload-spec.spec.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/reload-spec.spec.js.mp4
 
 
 ====================================================================================================

@@ -5,11 +5,10 @@ exports['e2e cy.origin retries / Appropriately displays test retry errors withou
   (Run Starting)
 
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ Cypress:      1.2.3                                                                            │
-  │ Browser:      FooBrowser 88                                                                    │
-  │ Specs:        1 found (cy_origin_retries.cy.ts)                                                │
-  │ Searched:     cypress/e2e/cy_origin_retries.cy.ts                                              │
-  │ Experiments:  experimentalSessionAndOrigin=true                                                │
+  │ Cypress:    1.2.3                                                                              │
+  │ Browser:    FooBrowser 88                                                                      │
+  │ Specs:      1 found (cy_origin_retries.cy.ts)                                                  │
+  │ Searched:   cypress/e2e/cy_origin_retries.cy.ts                                                │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 
@@ -66,9 +65,9 @@ exports['e2e cy.origin retries / Appropriately displays test retry errors withou
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/cy_origin_retries.cy.ts.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/cy_origin_retries.cy.ts.mp4
 
 
 ====================================================================================================

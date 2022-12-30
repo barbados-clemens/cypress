@@ -42,9 +42,9 @@ exports['@cypress/vite-dev-server react executes all of the tests for vite3.0.2-
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -96,9 +96,9 @@ We dynamically generated a new test to display this failure.
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -192,9 +192,9 @@ https://on.cypress.io/uncaught-exception-from-application
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -246,9 +246,9 @@ https://on.cypress.io/uncaught-exception-from-application
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -292,9 +292,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -327,9 +327,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -366,9 +366,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -404,7 +404,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4                    (X second)
+  -  Finished processing: 0 seconds                                                  
+
+  -  Video output: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4
 
 
 ====================================================================================================
@@ -479,9 +481,9 @@ exports['@cypress/vite-dev-server react executes all of the tests for vite2.8.6-
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -533,9 +535,9 @@ We dynamically generated a new test to display this failure.
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -629,9 +631,9 @@ https://on.cypress.io/uncaught-exception-from-application
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -683,9 +685,9 @@ https://on.cypress.io/uncaught-exception-from-application
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -729,9 +731,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -764,9 +766,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -803,9 +805,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -841,7 +843,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4                    (X second)
+  -  Finished processing: 0 seconds                                                  
+
+  -  Video output: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4
 
 
 ====================================================================================================
@@ -916,9 +920,9 @@ exports['@cypress/vite-dev-server react executes all of the tests for vite2.9.1-
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/App.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -970,9 +974,9 @@ We dynamically generated a new test to display this failure.
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/AppCompilationError.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1066,9 +1070,9 @@ https://on.cypress.io/uncaught-exception-from-application
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Errors.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1120,9 +1124,9 @@ https://on.cypress.io/uncaught-exception-from-application
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1166,9 +1170,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReact.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1201,9 +1205,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/MissingReactInSpec.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1240,9 +1244,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/Rerendering.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1278,7 +1282,9 @@ Video output: /XXX/XXX/XXX/cypress/videos/Unmount.cy.jsx.mp4
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4                    (X second)
+  -  Finished processing: 0 seconds                                                  
+
+  -  Video output: /XXX/XXX/XXX/cypress/videos/mount.cy.jsx.mp4
 
 
 ====================================================================================================

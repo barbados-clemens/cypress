@@ -1,4 +1,4 @@
-exports['e2e runnable execution / cannot navigate in before hook and test'] = `
+exports['e2e runnable execution / can navigate in before hook and test'] = `
 
 ====================================================================================================
 
@@ -22,88 +22,21 @@ exports['e2e runnable execution / cannot navigate in before hook and test'] = `
 
   suite
     ✓ test
-    1) causes domain navigation
+    ✓ causes domain navigation
 
-  navigation error in beforeEach
-    2) "before each" hook for "never gets here"
-
-
-  2 passing
-  2 failing
-
-  1) suite
-       causes domain navigation:
-     CypressError: \`cy.visit()\` failed because you are attempting to visit a URL that is of a different origin.
-
-In order to visit a different origin, you can enable the \`experimentalSessionAndOrigin\` flag and use \`cy.origin()\`:
-
-\`cy.visit('http://localhost:4545/')\`
-\`<commands targeting http://localhost:4545 go here>\`
-
-\`cy.origin('http://localhost:5656', () => {\`
-\`  cy.visit('http://localhost:5656/')\`
-\`  <commands targeting http://localhost:5656 go here>\`
-\`})\`
-
-The new URL is considered a different origin because the following parts of the URL are different:
-
-  > port
-
-You may only \`cy.visit()\` same-origin URLs within a single test.
-
-The previous URL you visited was:
-
-  > 'http://localhost:4545'
-
-You're attempting to visit this URL:
-
-  > 'http://localhost:5656'
-
-https://on.cypress.io/cannot-visit-different-origin-domain
-      [stack trace lines]
-
-  2) navigation error in beforeEach
-       "before each" hook for "never gets here":
-     CypressError: \`cy.visit()\` failed because you are attempting to visit a URL that is of a different origin.
-
-In order to visit a different origin, you can enable the \`experimentalSessionAndOrigin\` flag and use \`cy.origin()\`:
-
-\`cy.visit('http://localhost:4545/')\`
-\`<commands targeting http://localhost:4545 go here>\`
-
-\`cy.origin('http://localhost:5656', () => {\`
-\`  cy.visit('http://localhost:5656/')\`
-\`  <commands targeting http://localhost:5656 go here>\`
-\`})\`
-
-The new URL is considered a different origin because the following parts of the URL are different:
-
-  > port
-
-You may only \`cy.visit()\` same-origin URLs within a single test.
-
-The previous URL you visited was:
-
-  > 'http://localhost:4545'
-
-You're attempting to visit this URL:
-
-  > 'http://localhost:5656'
-
-https://on.cypress.io/cannot-visit-different-origin-domain
-
-Because this error occurred during a \`before each\` hook we are skipping the remaining tests in the current suite: \`navigation error in beforeEach\`
-      [stack trace lines]
+  navigation in beforeEach
+    ✓ test
 
 
+  4 passing
 
 
   (Results)
 
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ Tests:        4                                                                                │
-  │ Passing:      2                                                                                │
-  │ Failing:      2                                                                                │
+  │ Passing:      4                                                                                │
+  │ Failing:      0                                                                                │
   │ Pending:      0                                                                                │
   │ Skipped:      0                                                                                │
   │ Screenshots:  0                                                                                │
@@ -116,9 +49,9 @@ Because this error occurred during a \`before each\` hook we are skipping the re
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/beforehook-and-test-navigation.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/beforehook-and-test-navigation.cy.js.mp4
 
 
 ====================================================================================================
@@ -128,10 +61,10 @@ Video output: /XXX/XXX/XXX/cypress/videos/beforehook-and-test-navigation.cy.js.m
 
        Spec                                              Tests  Passing  Failing  Pending  Skipped  
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ ✖  beforehook-and-test-navigation.cy.j      XX:XX        4        2        2        -        - │
+  │ ✔  beforehook-and-test-navigation.cy.j      XX:XX        4        4        -        -        - │
   │    s                                                                                           │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
-    ✖  1 of 1 failed (100%)                     XX:XX        4        2        2        -        -  
+    ✔  All specs passed!                        XX:XX        4        4        -        -        -  
 
 
 `
@@ -190,9 +123,9 @@ exports['e2e runnable execution / runnables run correct number of times with nav
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/runnable-run-count.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/runnable-run-count.cy.js.mp4
 
 
 ====================================================================================================

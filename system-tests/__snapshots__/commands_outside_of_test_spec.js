@@ -38,9 +38,9 @@ exports['e2e commands outside of test / passes on passing assertions'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/assertions_passing_outside_of_test.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/assertions_passing_outside_of_test.cy.js.mp4
 
 
 ====================================================================================================
@@ -121,9 +121,9 @@ We dynamically generated a new test to display this failure.
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/assertions_failing_outside_of_test.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/assertions_failing_outside_of_test.cy.js.mp4
 
 
 ====================================================================================================
@@ -212,9 +212,9 @@ https://on.cypress.io/cannot-execute-commands-outside-test
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/commands_outside_of_test.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/commands_outside_of_test.cy.js.mp4
 
 
 ====================================================================================================

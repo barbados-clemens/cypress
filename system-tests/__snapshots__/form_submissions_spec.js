@@ -49,9 +49,9 @@ exports['e2e forms / <form> submissions / passes with https on localhost'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/form_submission_multipart.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/form_submission_multipart.cy.js.mp4
 
 
 ====================================================================================================
@@ -119,9 +119,9 @@ exports['e2e forms / <form> submissions / passes with http on localhost'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/form_submission_multipart.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/form_submission_multipart.cy.js.mp4
 
 
 ====================================================================================================
@@ -197,9 +197,9 @@ exports['e2e forms / submissions with jquery XHR POST / failing'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/form_submission_failing.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/form_submission_failing.cy.js.mp4
 
 
 ====================================================================================================
@@ -259,9 +259,9 @@ exports['e2e forms / submissions with jquery XHR POST / passing'] = `
   (Video)
 
   -  Started processing:  Compressing to 32 CRF                                                     
-  -  Finished processing: 100%                                                            (X second)
+  -  Finished processing: 0 seconds                                                  
 
-Video output: /XXX/XXX/XXX/cypress/videos/form_submission_passing.cy.js.mp4
+  -  Video output: /XXX/XXX/XXX/cypress/videos/form_submission_passing.cy.js.mp4
 
 
 ====================================================================================================

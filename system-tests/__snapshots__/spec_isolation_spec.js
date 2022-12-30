@@ -740,14 +740,15 @@ exports['e2e spec_isolation fails [electron] 1'] = {
 }
 
 exports['e2e spec_isolation fails [chrome] 1'] = {
+  "status": "finished",
   "startedTestsAt": "2018-02-01T20:14:19.323Z",
   "endedTestsAt": "2018-02-01T20:14:19.323Z",
   "totalDuration": 5555,
   "totalSuites": 8,
   "totalTests": 12,
-  "totalFailed": 5,
   "totalPassed": 5,
   "totalPending": 1,
+  "totalFailed": 5,
   "totalSkipped": 1,
   "runs": [
     {
@@ -1319,8 +1320,7 @@ exports['e2e spec_isolation fails [chrome] 1'] = {
   "osName": "FooOS",
   "osVersion": "1234",
   "cypressVersion": "9.9.9",
-  "config": {},
-  "status": "finished"
+  "config": {}
 }
 
 exports['e2e spec_isolation fails [firefox] 1'] = {
@@ -1908,14 +1908,15 @@ exports['e2e spec_isolation fails [firefox] 1'] = {
 }
 
 exports['e2e spec_isolation failing with retries enabled [electron] 1'] = {
+  "status": "finished",
   "startedTestsAt": "2018-02-01T20:14:19.323Z",
   "endedTestsAt": "2018-02-01T20:14:19.323Z",
   "totalDuration": 5555,
   "totalSuites": 6,
   "totalTests": 8,
-  "totalFailed": 4,
   "totalPassed": 2,
   "totalPending": 1,
+  "totalFailed": 4,
   "totalSkipped": 1,
   "runs": [
     {
@@ -2322,7 +2323,7 @@ exports['e2e spec_isolation failing with retries enabled [electron] 1'] = {
             "t2"
           ],
           "state": "passed",
-          "body": "() => {// pass\n  }",
+          "body": "() => {\n    // pass\n  }",
           "displayError": null,
           "attempts": [
             {
@@ -2358,19 +2359,19 @@ exports['e2e spec_isolation failing with retries enabled [electron] 1'] = {
   "osName": "FooOS",
   "osVersion": "1234",
   "cypressVersion": "9.9.9",
-  "config": {},
-  "status": "finished"
+  "config": {}
 }
 
 exports['e2e spec_isolation failing with retries enabled [chrome] 1'] = {
+  "status": "finished",
   "startedTestsAt": "2018-02-01T20:14:19.323Z",
   "endedTestsAt": "2018-02-01T20:14:19.323Z",
   "totalDuration": 5555,
   "totalSuites": 6,
   "totalTests": 8,
-  "totalFailed": 4,
   "totalPassed": 2,
   "totalPending": 1,
+  "totalFailed": 4,
   "totalSkipped": 1,
   "runs": [
     {
@@ -2777,7 +2778,7 @@ exports['e2e spec_isolation failing with retries enabled [chrome] 1'] = {
             "t2"
           ],
           "state": "passed",
-          "body": "() => {// pass\n  }",
+          "body": "() => {\n    // pass\n  }",
           "displayError": null,
           "attempts": [
             {
@@ -2813,19 +2814,19 @@ exports['e2e spec_isolation failing with retries enabled [chrome] 1'] = {
   "osName": "FooOS",
   "osVersion": "1234",
   "cypressVersion": "9.9.9",
-  "config": {},
-  "status": "finished"
+  "config": {}
 }
 
 exports['e2e spec_isolation failing with retries enabled [firefox] 1'] = {
+  "status": "finished",
   "startedTestsAt": "2018-02-01T20:14:19.323Z",
   "endedTestsAt": "2018-02-01T20:14:19.323Z",
   "totalDuration": 5555,
   "totalSuites": 6,
   "totalTests": 8,
-  "totalFailed": 4,
   "totalPassed": 2,
   "totalPending": 1,
+  "totalFailed": 4,
   "totalSkipped": 1,
   "runs": [
     {
@@ -3232,7 +3233,7 @@ exports['e2e spec_isolation failing with retries enabled [firefox] 1'] = {
             "t2"
           ],
           "state": "passed",
-          "body": "() => {// pass\n  }",
+          "body": "() => {\n    // pass\n  }",
           "displayError": null,
           "attempts": [
             {
@@ -3268,8 +3269,7 @@ exports['e2e spec_isolation failing with retries enabled [firefox] 1'] = {
   "osName": "FooOS",
   "osVersion": "1234",
   "cypressVersion": "9.9.9",
-  "config": {},
-  "status": "finished"
+  "config": {}
 }
 
 exports['e2e spec_isolation failing with retries enabled [webkit] 1'] = {
@@ -3625,7 +3625,7 @@ exports['e2e spec_isolation failing with retries enabled [webkit] 1'] = {
             "t2"
           ],
           "state": "passed",
-          "body": "() => {// pass\n  }",
+          "body": "() => {\n    // pass\n  }",
           "displayError": null,
           "attempts": [
             {
